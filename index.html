@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <!-- Incluir las fuentes Anton y Source Code Pro -->
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+        <script defer src="app.js"></script>
+      </head>
+      
+      <body>
+        <nav class="navbar">
+          <div class="logo">FA</div>
+          <div class="menu-toggle" id="mobile-menu">☰</div>
+          <div class="links" id="nav-links">
+            <a href="#works">Works</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="mode-toggle">
+            <span id="mode-text">Mode</span>
+            <button id="mode-button">
+              <span id="mode-icon">☀️</span>
+            </button>
+
+          </div>
+        </nav>
+      
+        <!-- Sección Hero -->
+        <section class="hero">
+          <div class="hero-content">
+            <h1 class="hero-title">FERNANDO ALEGRE</h1>
+            <p class="hero-subtitle">FULLSTACK DEVELOPER</p>
+          </div>
+        </section>
+        <!-- Sección Works -->
+<!-- Sección Works -->
+<section id="works" class="works-section">
+  <div class="works-container">
+    <h2>My Works</h2>
+
+    <div class="work-item">
+      <a href="https://todolisto-de5379e54a03.herokuapp.com/" target="_blank">
+        <img src="images/todo.png" alt="To Do List" />
+      </a>
+      <h3>To Do List (Python)</h3>
+      <p>A simple task management application that allows users to create, edit, and delete tasks. Ideal for organizing your day-to-day without complications.</p>
+    </div>
+
+    <div class="work-item">
+      <a href="https://cdm-seven.vercel.app/" target="_blank">
+        <img src="images/cdm.png" alt="Fútbol Team" />
+      </a>
+      <h3>Football Team Page (ReactJS + Tailwind)</h3>
+      <p>An interactive website dedicated to a football team, with a modern and responsive design, presenting the team's history, players, and statistics.</p>
+    </div>
+
+    <div class="work-item">
+      <a href="https://mern3-client.onrender.com/" target="_blank">
+        <img src="images/dach.png" alt="Ecommerce" />
+      </a>
+      <h3>Ecommerce (MERN)</h3>
+      <p>An e-commerce system that allows users to browse, shop, and manage their purchase history, with a complete admin panel.</p>
+    </div>
+
+    <div class="work-item">
+      <a href="https://finanzas-frontend-no0l.onrender.com" target="_blank">
+        <img src="images/finance.png" alt="Financial Application" />
+      </a>
+      <h3>Financial Application (MERN)</h3>
+      <p>An app that helps users control their expenses and income, with categorization and financial data analysis functionalities.</p>
+    </div>
+
+  <div class="work-item">
+    <a href="https://visit-santacruz-atei-bhzu2su21-fernandoalegre1990s-projects.vercel.app/" target="_blank">
+      <img src="images/visit.png" alt="Tourism Application" />
+    </a>
+    <h3>Visit Santa Cruz</h3>
+    <p>A website about Santa Cruz, Argentina made purely with ReactJS.</p>
+  </div>
+</div>
+</section>
+
+
+
+  
+  
+
+        <!-- Sección About -->
+<section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hi! My name is <strong>Fernando Alegre</strong>, a passionate <strong>Fullstack Developer</strong> with experience in various technologies like <strong>HTML, CSS, JavaScript, React JS, Node JS, MongoDB, Python</strong>, and <strong>SQL</strong>. 
+          I’m originally from <strong>Argentina</strong>, currently living in <strong>Alicante</strong>, Spain. I’m 33 years old, and apart from coding, I’m deeply interested in <strong>design and art</strong>.
+        </p>
+      </div>
+      <div class="about-photo">
+        <img src="images/fer.jpg" alt="Fernando Alegre" />
+      </div>
+    </div>
+  </section>
+  <!-- Sección Contact -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <form class="contact-form" action="https://formsubmit.co/fernandoalegre31@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-links">
+        <a href="https://wa.me/+34604842479" target="_blank" class="whatsapp">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://www.linkedin.com/in/fernando-alegre-18a1241a9/" target="_blank" class="linkedin">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/FernandoAlegre1990" target="_blank" class="github">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+</section>
+  
+  
+      
+      </body>
+      
+</html>
